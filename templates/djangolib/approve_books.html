@@ -1,0 +1,27 @@
+{% extends 'djangolib/layout.html'%}
+
+{% block title%} Одобрение книг {% endblock %}
+{% block content%}
+<h2>Одобрение книг</h2>
+<form method="POST">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <th>Название</th>
+            <th>Автор</th>
+            <th>Действия</th>
+        </tr>
+        {% for book in books %}
+        <tr>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>
+
+                <button type="submit" name="book_id" value="{{ book.pk }}">Одобрить</button>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</form>
+
+{%endblock%}

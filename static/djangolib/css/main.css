@@ -1,0 +1,145 @@
+
+
+body {
+    background-image: url('background.jpg');
+    height: 100%;
+}
+
+aside {
+    float: left;
+    background: #000000;
+    width: 25%;
+    padding: 2.5%;
+    height: 100%;
+    color: #fff;
+    border-right: 5px solid #009900;
+    border-bottom: 5px solid #009900
+}
+aside img {
+    width:80px;
+    height: 80px:
+    float: left;
+}
+
+aside .logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+aside a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+    }
+aside a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+aside ul {list-style: none}
+aside ul li, aside ul a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 75px;
+    text-align: center;
+    width: 75%
+}
+main .features ul{
+    list-style: none;
+    margin-left: 20px;
+    text-align: left;
+    color: #fff;
+    font-size: 40px;
+}
+main .card{
+    background-color:#FFFFCC;
+}
+main .features h1{ font-size: 50px;}
+main .features a{
+    color: #000000;
+    text-decoration: none;
+
+    }
+main .features p {
+    max-width: 500px;
+    margin: 20px auto;
+    }
+main .card {
+    float: center;
+    clear: both;
+    max-width: 500px;
+    margin: 20px auto;
+
+    opacity:0.8;
+    }
+main .card p {
+    margin: 20px auto;
+    }
+main .card a{
+    color: #000000;
+    text-decoration: none;
+    transition: transform .6s ease;
+    }
+main .card a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+form{
+    margin: 0px auto;
+    width: 500px;
+    margin-top: -15px;
+}
+main .error{
+    color: red;
+}
+
+
+
+main .text-content {
+    color: #fff;
+    overflow-wrap: break-word;  /* Перенос длинных слов */
+    hyphens: auto;  /* Автоматический перенос слов при необходимости */
+    margin: auto;
+    padding: 30px;  /* Отступы внутри блока текста */
+    white-space: pre-wrap;  /* Сохраняем пробелы и переносы строк */
+    max-width: 1300px;  /* Максимальная ширина блока */
+    word-wrap: break-word;  /* Для более старых браузеров */
+    overflow: hidden;  /* Скрыть переполнение */
+    display: block;  /* Убедитесь, что блок правильно отображается */
+   }
+
+footer .info-footer {
+  background-color: #000000;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   width: 75%;
+   font-size: 15px;
+   font-weight: 400;
+   color: #fff;
+}
+
